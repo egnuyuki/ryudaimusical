@@ -10,9 +10,6 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className=''>
-      <Head>
-        <title>琉大ミュージカル</title>
-      </Head>
       <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-10 lg:px-24">
         <Header/>
         <Slider/>

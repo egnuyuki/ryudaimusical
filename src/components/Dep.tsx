@@ -2,19 +2,19 @@ const Date = [
     {
         titleJ:"キャスト",
         titleE:"CAST",
-        img:"/",
+        img:"/キャスト.png",
         href:"#dep-cast",
     },
     {
         titleJ:"スタッフ",
         titleE:"STAFF",
-        img:"/",
+        img:"/スタッフ.png",
         href:"#dep-staff",
     },
     {
         titleJ:"オーケストラ",
         titleE:"ORCHESTRA",
-        img:"/",
+        img:"/オーケストラ.png",
         href:"#dep-orchestra",
     },
 ]
@@ -36,7 +36,16 @@ export default function Dep () {
                             <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">{date.titleJ}</div>
                             <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">{date.titleE}</div>
                         </div>
-                        <div className="w-40 h-40 bg-zinc-300 rounded-full" />
+                        <div className="w-40 h-40 bg-zinc-300 rounded-full">
+                            <Image
+                            src={date.img}
+                            alt="25thImage"
+                            className="rouded-full"
+                            width={650}
+                            height={650}
+                            priority
+                            />
+                        </div>    
                         <Link href = {date.href}>
                             <div className="text-zinc-800 dark:text-white text-base font-normal mx-auto text-center pt-6 hover:text-blue-300">詳しくみる</div>
                         </Link>
