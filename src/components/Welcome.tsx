@@ -2,7 +2,7 @@ import H1 from "./H1"
 
 export default function Welcome () {
     return (
-        <div className="mt-10 xl:mt-32 mx-auto relative  max-w-screen-xl">
+        <div className="mt-10 xl:mt-20 mx-auto relative  max-w-screen-xl">
             <div className="w-10/12 mx-auto">
                 <div className="py-2">
                     <span className="text-blue-950 dark:text-blue-200 text-4xl font-normal tracking-wide">想像</span>

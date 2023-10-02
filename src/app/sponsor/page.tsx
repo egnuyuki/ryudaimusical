@@ -11,9 +11,9 @@ export default function Home() {
     <div>
       <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-10 lg:px-24">
         <Header/>
-        <div className=" " id="sponsors">
+        <div className="w-full md:w-10/12 mx-auto my-10 px-4 py-8 flex justify-center flex-col  max-w-screen-xl" id="sponsors">
             <H2 h2J='協賛企業' h2E='Sponsors'/>
-            <div className="w-full">
+            <div className="w-full mt-10">
                 <div className="flex w-full flex-shrink">
                   <div>
                     <img className='w-full' src="images/sponsors/2022_panfS__4685854_0.jpg" alt=""/>
@@ -159,9 +159,6 @@ export default function Home() {
                   </div>
                 </div>
             </div>
-        </div>
-        <div>
-          
         </div>
       </main>
     </div>

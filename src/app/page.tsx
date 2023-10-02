@@ -16,9 +16,9 @@ export default function Home() {
         <Welcome/>
         <Introduction/>
       </main>
-      <div className='px-2 lg:w-8/12 mx-auto'>
+      {/* <div className='px-2 lg:w-8/12 mx-auto'>
         <TwitterTimeline />
-      </div>
+      </div> */}
     </div>
   )
 }

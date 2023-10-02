@@ -1,8 +1,8 @@
 const Date = [
     {
-        text:"Home",
+        text:"Menu",
         img:"/home-icon.svg",
-        href:"/",
+        href:"/menu",
     },
     {
         text:"History",

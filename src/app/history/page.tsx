@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <main className="flex flex-col items-center py-20 md:py-10 lg:px-24">
         <Header />
-        <FirstView/>
+        {/* <FirstView/> */}
         <Performance />
         <Record/>
       </main>

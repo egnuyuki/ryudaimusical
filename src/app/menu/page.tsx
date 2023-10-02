@@ -1,7 +1,4 @@
 "use client"
-import Header from '@/components/Header'
-import TwitterTimeline from '@/components/TwitterTimeline'
-import Slider from '@/components/Slider'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -22,13 +19,13 @@ export default function Home() {
                     />
                 </div>
       <div className="mt-10 mb-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <Link href="/about">
+        <Link href="/">
         <div
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            About{' '}
+            Home{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -57,7 +54,7 @@ export default function Home() {
         </div>
         </Link>
 
-        <Link href="/note">
+        <Link href="https://note.com/ryudaimusical/">
         <div
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
@@ -88,6 +85,40 @@ export default function Home() {
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             後援団体、協賛協力団体
+          </p>
+        </div>
+        </Link>
+
+        <Link href="/privacypolicy">
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+          Privacypolicy{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            プライバシーポリシー
+          </p>
+        </div>
+        </Link>
+
+        <Link href="/contact">
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+          Contact{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            お問い合わせ先
           </p>
         </div>
         </Link>

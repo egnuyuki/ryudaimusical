@@ -54,31 +54,9 @@ export default function Slider () {
                 // onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 >
-
-                    
                     <SwiperSlide className="">
                         <Image
-                            src="/25th-high.jpg"
-                            alt="25thImage"
-                            className="firstview"
-                            width={1440}
-                            height={50}
-                            priority
-                        />
-                    </SwiperSlide>
-                    {/* <SwiperSlide className="">
-                        <Image
-                            src="/25th-web.svg"
-                            alt="25thImage"
-                            className="firstview"
-                            width={650}
-                            height={650}
-                            priority
-                        />
-                    </SwiperSlide> */}
-                    <SwiperSlide className="">
-                        <Image
-                            src="/fv_red.jpg"
+                            src="/fv-1.jpg"
                             alt="25thImage"
                             className="firstview"
                             width={1440}
@@ -88,7 +66,7 @@ export default function Slider () {
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <Image
-                            src="/fv_black.jpg"
+                            src="/fv-2.jpg"
                             alt="25thImage"
                             className="firstview"
                             width={1440}
@@ -98,7 +76,7 @@ export default function Slider () {
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <Image
-                            src="/fv_orange.jpg"
+                            src="/fv-3.jpg"
                             alt="25thImage"
                             className="firstview"
                             width={1440}
@@ -108,7 +86,27 @@ export default function Slider () {
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <Image
-                            src="/fv_light.jpg"
+                            src="/fv-4.jpg"
+                            alt="25thImage"
+                            className="firstview"
+                            width={1440}
+                            height={50}
+                            priority
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide className="">
+                        <Image
+                            src="/fv-5.jpg"
+                            alt="25thImage"
+                            className="firstview"
+                            width={1440}
+                            height={50}
+                            priority
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide className="">
+                        <Image
+                            src="/fv-6.jpg"
                             alt="25thImage"
                             className="firstview"
                             width={1440}

@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-10 lg:px-24">
         <Header />
-        <div className="my-10">
+        <div className="w-full md:w-10/12 mx-auto my-10 px-4 py-8 flex justify-center flex-col  max-w-screen-xl">
           <H2 h2J='プライバシーポリシー' h2E='PrivacyPolicy'/>
           <div className='text-md my-10'>
             琉大ミュージカル（以下，「当団体」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。<br />
