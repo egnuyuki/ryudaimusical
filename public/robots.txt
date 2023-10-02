@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ryudaimusical.com/
+
+# Sitemaps
+Sitemap: https://www.ryudaimusical.com/sitemap.xml
