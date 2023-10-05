@@ -10,7 +10,7 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className=''>
-      <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-10 lg:px-24">
+      <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-0 lg:px-24">
         <Header/>
         <Slider/>
         <Welcome/>

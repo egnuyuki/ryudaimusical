@@ -37,7 +37,7 @@ const ImgDate = [
 export default function Slider () {
 
     return (
-        <div className="max-w-screen-2xl w-full mx-auto">
+        <div className="w-screen mx-0">
             <div className=''>
                 <Swiper
                 // install Swiper modules
@@ -59,8 +59,8 @@ export default function Slider () {
                             src="/fv-1.jpg"
                             alt="25thImage"
                             className="firstview"
-                            width={1440}
-                            height={50}
+                            width={1200}
+                            height={675}
                             priority
                         />
                     </SwiperSlide>
@@ -69,8 +69,8 @@ export default function Slider () {
                             src="/fv-2.jpg"
                             alt="25thImage"
                             className="firstview"
-                            width={1440}
-                            height={50}
+                            width={1200}
+                            height={675}
                             priority
                         />
                     </SwiperSlide>
@@ -79,8 +79,8 @@ export default function Slider () {
                             src="/fv-3.jpg"
                             alt="25thImage"
                             className="firstview"
-                            width={1440}
-                            height={50}
+                            width={1200}
+                            height={675}
                             priority
                         />
                     </SwiperSlide>
@@ -89,8 +89,8 @@ export default function Slider () {
                             src="/fv-4.jpg"
                             alt="25thImage"
                             className="firstview"
-                            width={1440}
-                            height={50}
+                            width={1200}
+                            height={675}
                             priority
                         />
                     </SwiperSlide>
@@ -99,8 +99,8 @@ export default function Slider () {
                             src="/fv-5.jpg"
                             alt="25thImage"
                             className="firstview"
-                            width={1440}
-                            height={50}
+                            width={1200}
+                            height={675}
                             priority
                         />
                     </SwiperSlide>
@@ -109,8 +109,8 @@ export default function Slider () {
                             src="/fv-6.jpg"
                             alt="25thImage"
                             className="firstview"
-                            width={1440}
-                            height={50}
+                            width={1200}
+                            height={675}
                             priority
                         />
                     </SwiperSlide>

@@ -6,8 +6,8 @@ import Favicon from '/public/images/Metadata/favicon.ico';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '琉大ミュージカル',
-  description: '琉大ミュージカルのホームページです。琉球大学の授業「ステージスタッフ総合活動」',
+  title: '琉大ミュージカル公式サイト',
+  description: '琉大ミュージカルの公式ホームページです。リニューアルしました！！！琉球大学の授業「ステージスタッフ総合活動」ではキャスト・スタッフ・オーケストラ、そして制作部によってミュージカルを作り上げていきます',
   icons: [{ rel: 'icon', url: Favicon.src }],
 }
 

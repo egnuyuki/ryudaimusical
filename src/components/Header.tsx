@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex mx-auto">
+        <div className="z-10 w-screen px-4 bg-black bg-opacity-50 items-center justify-between font-mono text-sm lg:flex mx-auto lg:fixed">
             <div className="fixed left-0 top-0 flex h-20 md:h-auto w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                 <div className="relative flex place-items-center 
                 before:absolute before:h-20 before:w-20 before:translate-x-full before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] 
