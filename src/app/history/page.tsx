@@ -8,7 +8,7 @@ import Record from '@/components/Record '
 export default function Home() {
   return (
     <div>
-      <main className="flex flex-col items-center py-20 md:py-10 lg:px-24">
+      <main className="flex flex-col items-center py-20 md:py-0 lg:px-24">
         <Header />
         {/* <FirstView/> */}
         <Performance />

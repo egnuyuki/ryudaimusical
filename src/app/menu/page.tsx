@@ -9,14 +9,16 @@ export default function Home() {
         <div className="relative flex place-items-center 
                 before:absolute before:h-20 before:w-20 before:translate-x-full before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] 
                 after:absolute after:-z-20 after:h-20 after:w-20 after:translate-x-full-x-full after:rounded-full after:bg-gradient-radial after: from-white after:to-transparent after:blur-2xl after:content-['']">
+                  <Link href="/">
                     <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/rm-logo.svg"
-                    alt="Next.js Logo"
-                    width={250}
-                    height={50}
-                    priority
+                        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                        src="/rm-logo.svg"
+                        alt="Next.js Logo"
+                        width={300}
+                        height={100}
+                        priority
                     />
+                  </Link>
                 </div>
       <div className="mt-10 mb-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <Link href="/">

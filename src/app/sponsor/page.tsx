@@ -80,7 +80,7 @@ const Date = [
 export default function Home() {
   return (
     <div>
-      <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-10 lg:px-24">
+      <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-0 lg:px-24">
         <Header/>
         <div className="w-full md:w-10/12 mx-auto my-10 px-4 py-8 flex justify-center flex-col  max-w-screen-xl" id="sponsors">
             <H2 h2J='協賛企業' h2E='Sponsors'/>
