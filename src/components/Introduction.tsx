@@ -1,5 +1,5 @@
 import H2 from "./H2";
-import Dep from "./Dep";
+import Dep from "./Dep copy";
 export default function Introduction() {
     return (
         <div className="w-full md:w-10/12 mx-auto my-10 px-4 py-8 flex justify-center flex-col  max-w-screen-xl">

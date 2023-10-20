@@ -1,5 +1,3 @@
-import H1 from "./H1"
-
 export default function Welcome () {
     return (
         <div className="mt-10 xl:mt-20 mx-auto relative  max-w-screen-xl">

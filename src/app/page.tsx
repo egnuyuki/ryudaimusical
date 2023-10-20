@@ -1,24 +1,22 @@
 "use client"
 import Header from '@/components/Header'
-import TwitterTimeline from '@/components/TwitterTimeline'
 import Slider from '@/components/Slider'
 import FirstView from '@/components/FirstView'
 import Introduction from '@/components/Introduction'
 import Welcome from '@/components/Welcome'
-import Head from 'next/head'
+import ScrollApeal from '@/components/ScrollApeal'
+// import ScrollToButton from '@/components/ScrollToButton'
 
 export default function Home() {
   return (
     <div className=''>
+      <Header/>
+      <FirstView src='/fv_1.jpg' alt='top画像'/>
       <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-0 lg:px-24">
-        <Header/>
-        <Slider/>
         <Welcome/>
         <Introduction/>
+        <ScrollApeal/>
       </main>
-      {/* <div className='px-2 lg:w-8/12 mx-auto'>
-        <TwitterTimeline />
-      </div> */}
     </div>
   )
 }

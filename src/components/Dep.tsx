@@ -19,7 +19,6 @@ const Date = [
     },
 ]
 
-import Link from "next/link"
 import H3 from "./H3"
 import Image from "next/image"
 
@@ -29,26 +28,48 @@ export default function Dep () {
         <div>
             <div className='w-full justify-center items-center flex-col md:flex-row flex gap-10 my-10'>
             {Date.map(date => {
-                    return (
+                const scrollToSection = () => {
+                    const target = document.getElementById(date.href);
+                    const offset = 120;  // Adjust this value as needed
+                    if (target) {
+                      window.scrollTo({
+                        top: target.offsetTop - offset,
+                        behavior: 'smooth'
+                      });
+                    }
+                    console.log(target);
+                };
+                return (
                     <div key = {date.titleJ}>
                         <div className="border p-8 rounded-xl flex flex-col items-center gap-2">
-                        <div className="mx-auto relative mt-4">
-                            <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">{date.titleJ}</div>
-                            <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">{date.titleE}</div>
-                        </div>
-                        <div className="w-40 h-40 bg-zinc-300 rounded-full">
-                            <Image
-                            src={date.img}
-                            alt="25thImage"
-                            className="rouded-full"
-                            width={650}
-                            height={650}
-                            priority
-                            />
-                        </div>    
-                        <Link href = {date.href}>
-                            <div className="text-zinc-800 dark:text-white text-base font-normal mx-auto text-center pt-6 hover:text-blue-300">詳しくみる</div>
-                        </Link>
+                            <div className="mx-auto relative mt-4">
+                                <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">{date.titleJ}</div>
+                                <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">{date.titleE}</div>
+                            </div>
+                            <div className="w-40 h-40 bg-zinc-300 rounded-full">
+                                <Image
+                                src={date.img}
+                                alt="25thImage"
+                                className="rouded-full overflow-hidden"
+                                width={160}
+                                height={160}
+                                priority
+                                />
+                            </div>    
+                            <div 
+                            onClick={scrollToSection} 
+                              className="cursor-pointer p-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300"
+                            // className={combinedClass}
+                            role="button" 
+                            tabIndex={0}
+                            onKeyDown={(e) => {
+                                if (e.key === "Enter" || e.key === "Space") {
+                                scrollToSection();
+                                }
+                            }}
+                            >
+                            詳しく見る
+                            </div>
                         </div>
                     </div>
                             )
