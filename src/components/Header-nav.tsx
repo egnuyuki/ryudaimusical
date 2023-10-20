@@ -45,7 +45,7 @@ export default function Footer() {
             // </div>
             <div className="relative justify-start items-start gap-4 md:flex hidden">
                 
-                <div className="w-10 h-10 bg-zinc-100 rounded-full shadow">
+                <div className="w-10 h-10 bg-zinc-100 rounded-full shadow btn">
                     <Link href = "/" className="h-10">
                         <div className="relative flex flex-col items-center justify-center h-10">
                             <Image
@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
 
 
-                <div className="w-10 h-10 bg-zinc-100 rounded-full shadow">
+                <div className="w-10 h-10 bg-zinc-100 rounded-full shadow btn">
                     <Link href = "/contact" className="h-10">
                         <div className="relative flex flex-col items-center justify-center h-10">
                             <Image

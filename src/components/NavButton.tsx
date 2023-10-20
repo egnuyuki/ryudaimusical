@@ -8,7 +8,7 @@ export default function NavButton () {
         <div className="w-full fixed z-20 bottom-8 left-0 flex gap-4 items-end justify-center">
             
             
-            <div className="w-12 h-12 bg-zinc-100 rounded-full shadow translate-y-2">
+            <div className="w-12 h-12 bg-zinc-100 rounded-full shadow translate-y-2 btn">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <Link className="" href="/" target=''>
                         <Image
@@ -24,7 +24,7 @@ export default function NavButton () {
             </div>
             
             
-            <div className="relative w-12 h-12 bg-zinc-100 rounded-full shadow">
+            <div className="relative w-12 h-12 bg-zinc-100 rounded-full shadow btn">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <Link className="" href="/contact" target=''>
                         <Image
@@ -44,7 +44,7 @@ export default function NavButton () {
             
             
             
-            <div className="w-12 h-12 bg-zinc-100 rounded-full shadow relative">
+            <div className="w-12 h-12 bg-zinc-100 rounded-full shadow relative btn">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <Link className="" href="https://www.instagram.com/ryudaimusical/" target='brank'>
                         <Image

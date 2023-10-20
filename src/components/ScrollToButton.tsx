@@ -20,7 +20,7 @@ const ScrollToButton: React.FC<ScrollToButtonProps> = ({ targetId, text, classNa
     }
   };
 
-  const combinedClass = `p-2 text-zinc-800 hover:text-blue-300 ${className || ''}`;
+  const combinedClass = `p-2 text-zinc-800 hover:text-blue-300 btn ${className || ''}`;
 
   return (
     <div 
@@ -35,7 +35,9 @@ const ScrollToButton: React.FC<ScrollToButtonProps> = ({ targetId, text, classNa
         }
       }}
     >
-      {text}
+      <div>
+        {text}
+      </div>
     </div>
   );
 };
