@@ -12,7 +12,7 @@ export default function Home() {
     <div className=''>
       <Header/>
       <FirstView src='/fv_1.jpg' alt='top画像'/>
-      <main className="flex min-h-screen flex-col items-center justify-between py-20 md:py-0 lg:px-24">
+      <main className="flex min-h-screen flex-col items-center justify-between py-0 lg:px-24">
         <Welcome/>
         <Introduction/>
         <ScrollApeal/>

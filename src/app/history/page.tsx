@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Header />
       <FirstView src='/fv_5.jpg' alt='fv_5'/>
-      <main className="flex flex-col items-center py-20 md:py-0 lg:px-24">
+      <main className="flex flex-col items-center py-0 lg:px-24">
         <Performance />
         <Record/>
         <ScrollApeal/>
