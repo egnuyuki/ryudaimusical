@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className=''>
       <Header/>
-      <FirstView src='/fv_1.jpg' alt='top画像'/>
+      <FirstView src='/fv_1.jpg' srcM='/fv_1M.jpg' alt='top画像'/>
       <main className="flex min-h-screen flex-col items-center justify-between py-0 lg:px-24">
         <Welcome/>
         <Introduction/>

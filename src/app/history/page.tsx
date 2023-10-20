@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <FirstView src='/fv_5.jpg' alt='fv_5'/>
+      <FirstView src='/fv_5.jpg' srcM='/fv_5M.jpg' alt='fv_5'/>
       <main className="flex flex-col items-center py-0 lg:px-24">
         <Performance />
         <Record/>
