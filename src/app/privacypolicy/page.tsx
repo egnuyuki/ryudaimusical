@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main className="flex min-h-screen flex-col items-center justify-between py-0 lg:px-24">
+      <main className="flex min-h-screen flex-col items-center justify-between pt-0 pb-20 lg:px-24">
         <div className="w-full md:w-10/12 mx-auto my-10 px-4 py-8 flex justify-center flex-col  max-w-screen-xl">
           <H2 h2J='プライバシーポリシー' h2E='PrivacyPolicy'/>
           <div className='text-md my-10'>

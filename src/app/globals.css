@@ -38,7 +38,7 @@ body {
 
 .btn {
   overflow: hidden;
-  transition: all 0.3s ease-in;
+  transition: all .7s ease-in;
 }
 
 
@@ -63,7 +63,7 @@ body {
   margin-top: -50px;
   margin-left:-50px;
   content: "";
-  background: #3bcc3b;
+  background: #80aaff;
   border-radius: 100%;
   opacity: 0;
   animation: ripple 0.3s 1 ease-out;
