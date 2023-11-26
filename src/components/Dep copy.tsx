@@ -28,24 +28,24 @@ export default function Dep () {
     return (
         <div>
             <div className="w-full justify-center items-center flex-col md:flex-row flex gap-10 my-10">
-                    <div className="border p-8 rounded-xl flex flex-col items-center gap-2 shadow-lg">
-                        <div className="mx-auto relative mt-4">
-                            <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">キャスト</div>
-                            <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">Cast</div>
-                        </div>
-                        <div className="w-40 h-40 bg-zinc-300 rounded-full">
-                            <Image
+                <div className="border p-8 rounded-xl flex flex-col items-center gap-2 shadow-lg">
+                    <div className="mx-auto relative mt-4">
+                        <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">キャスト</div>
+                        <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">Cast</div>
+                    </div>
+                    <div className="w-40 h-40 bg-zinc-300 rounded-full">
+                        <Image
                             src="/キャスト.png"
                             alt="25thImage"
                             className="rouded-full overflow-hidden"
                             width={160}
                             height={160}
                             priority
-                            />
-                        </div>
-                        <ScrollToButton targetId="dep-cast" text="詳しく見る" className=""/>
+                        />
                     </div>
-                    <div className="border p-8 rounded-xl flex flex-col items-center gap-2">
+                    <ScrollToButton targetId="dep-cast" text="詳しく見る" className=""/>
+                </div>
+                    <div className="border p-8 rounded-xl flex flex-col items-center gap-2 shadow-lg">
                         <div className="mx-auto relative mt-4">
                             <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">スタッフ</div>
                             <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">STAFF</div>
@@ -62,7 +62,7 @@ export default function Dep () {
                         </div>
                         <ScrollToButton targetId="dep-staff" text="詳しく見る" className=""/>
                     </div>
-                    <div className="border p-8 rounded-xl flex flex-col items-center gap-2">
+                    <div className="border p-8 rounded-xl flex flex-col items-center gap-2 shadow-lg">
                         <div className="mx-auto relative mt-4">
                             <div className="text-zinc-800 dark:text-white text-xl font-normal mx-auto text-center">オーケストラ</div>
                             <div className="text-blue-300 dark:text-blue-50 text-opacity-20 dark:text-opacity-20 text-3xl font-normal mx-auto text-center absolute -top-2/4 left-2/4 -translate-x-2/4">ORCHESTRA</div>
