@@ -68,3 +68,16 @@ body {
   opacity: 0;
   animation: ripple 0.3s 1 ease-out;
 }
+
+.line-neon-orange {
+  box-shadow: 0 0 10px 0 #F4A76A;
+}
+.text-neon-orange {
+  text-shadow: 0 0 10px #F4A76A;
+}
+.line-neon-blue {
+  box-shadow: 0 0 10px 0 #80BDF5;
+}
+.text-neon-blue {
+  text-shadow: 0 0 10px #80BDF5;
+}
