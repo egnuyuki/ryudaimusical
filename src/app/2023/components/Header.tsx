@@ -6,13 +6,13 @@ export default function Header() {
     return (
         <div id="header">
             <div className="relative w-screen py-6 px-8 bg-blue-950 flex justify-center items-center flex-wrap">
-                <div className="absolute top-1/2 left-4 -translate-y-1/2 h-fit items-center flex">
+                {/* <div className="absolute top-1/2 left-4 -translate-y-1/2 h-fit items-center flex">
                     <div className="self-stretch flex-col justify-center items-center gap-2 inline-flex">
                         <div className="w-[30px] h-[0px] border border-white"></div>
                         <div className="w-[30px] h-[0px] border border-white"></div>
                         <div className="w-[30px] h-[0px] border border-white"></div>
                     </div>
-                </div>
+                </div> */}
                 <div className="btn">
                     <div>
                         <Link href="/">

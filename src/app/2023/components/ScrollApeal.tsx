@@ -26,7 +26,7 @@ const ScrollApeal = () => {
     return (
         <div
             ref={ref} 
-            className={`w-full fixed bottom-8 left-0 flex gap-4 items-end justify-center transform duration-500 ${scrolled ? 'z-20 opacity-100' : 'z-20 opacity-100 md:-z-20 md:opacity-0'}`}
+            className={`w-full fixed bottom-8 left-0 flex gap-4 items-end justify-center transform duration-500 ${scrolled ? 'z-20 opacity-100' : 'z-20 md:-z-20 opacity-0'}`}
         >
             {/* <NavButton /> */}
             <ScrollToButton targetId='header' text='top' className=' font-h2 text-white fixed bottom-4 right-4 text-2xl text-neon-blue md:text-4xl'/>
