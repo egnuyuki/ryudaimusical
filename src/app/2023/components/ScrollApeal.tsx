@@ -1,6 +1,5 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
-import NavButton from './NavButton';
 import ScrollToButton from './ScrollToButton';
 
 const ScrollApeal = () => {
