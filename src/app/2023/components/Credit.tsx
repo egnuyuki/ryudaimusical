@@ -44,8 +44,8 @@ export default function Credit() {
                 </div>
                 <div>
                     <div className="flex flex-col items-center gap-6 md:gap-20">
-                        <Member1 role="演出" name="与儀りちか"/>
-                        <Member1 role="舞台監督" name="比嘉あかり"/>
+                        <Member1 role="演出" name="与儀厘和"/>
+                        <Member1 role="舞台監督" name="比嘉彩加里"/>
                         <Member1 role="音楽監督" name="河合恵"/>
                     </div>
                 </div>
