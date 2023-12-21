@@ -81,3 +81,8 @@ body {
 .text-neon-blue {
   text-shadow: 0 0 10px #80BDF5;
 }
+
+@keyframes fall {
+  0% { top: -10px; opacity: 1; }
+  100% { top: 100vh; opacity: 0; }
+}
