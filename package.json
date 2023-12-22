@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "next": "latest",
-    "next-sitemap": "^4.2.3",
     "react": "latest",
     "react-dom": "latest",
     "sharp": "^0.32.6",
@@ -24,6 +23,7 @@
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "next-sitemap": "^4.2.3",
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
