@@ -13,8 +13,8 @@ import Waterdrops from '@/components/WaterDrop'
 
 export default function Home() {
   return (
+    <Waterdrops>
     <div className=''>
-      {/* <Waterdrops/> */}
       <Header/>
       <FirstView src='/fv_1.jpg' srcM='/fv_1M.jpg' alt='top画像'/>
       <main className="flex min-h-screen flex-col items-center justify-between py-0 lg:px-24">
@@ -24,5 +24,6 @@ export default function Home() {
         <ScrollApeal/>
       </main>
     </div>
+    </Waterdrops>
   )
 }

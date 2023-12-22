@@ -1,12 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef, ReactNode } from 'react';
 
-const Waterdrops: React.FC = () => {
+interface Waterdrops {
+    children: ReactNode; // ここで children プロパティの型を定義
+  }
+const Waterdrops: React.FC<Waterdrops> = ({ children })  => {
   useEffect(() => {
     const container = document.getElementById("waterdropContainer");
 
     function createWaterdrop() {
       const drop = document.createElement("div");
-      drop.className = "waterdrop w-2.5 h-2.5 rounded-full bg-aqua absolute";
+      drop.className = "waterdrop w-2.5 h-2.5 rounded-full bg-aqua fixed z-50";
       drop.style.left = `${Math.random() * window.innerWidth}px`;
       container?.appendChild(drop);
 
@@ -23,7 +26,11 @@ const Waterdrops: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return <div id="waterdropContainer" className="relative overflow-hidden w-full h-screen"></div>;
+  return(
+   <div id="waterdropContainer" className="relative overflow-hidden">
+    {children}
+  </div>
+  );
 };
 
 export default Waterdrops;
