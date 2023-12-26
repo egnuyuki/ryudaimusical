@@ -5,15 +5,15 @@ import FirstView from '@/components/FirstView'
 import Introduction from '@/components/Introduction'
 import Welcome from '@/components/Welcome'
 import ScrollApeal from '@/components/ScrollApeal'
-import H2 from '@/components/H2'
-import Image from 'next/image'
+import Head from 'next/head';
+import React from 'react';
 import NewPerformance from '@/components/NewPerformance'
 import Waterdrops from '@/components/WaterDrop'
 // import ScrollToButton from '@/components/ScrollToButton'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <Waterdrops>
+    // <Waterdrops>
     <div className=''>
       <Header/>
       <FirstView src='/fv_1.jpg' srcM='/fv_1M.jpg' alt='top画像'/>
@@ -24,6 +24,8 @@ export default function Home() {
         <ScrollApeal/>
       </main>
     </div>
-    </Waterdrops>
+    // </Waterdrops>
   )
 }
+
+export default Home
