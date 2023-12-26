@@ -1,15 +1,11 @@
 "use client"
 import Header from '@/components/Header'
-import Slider from '@/components/Slider'
 import FirstView from '@/components/FirstView'
 import Introduction from '@/components/Introduction'
 import Welcome from '@/components/Welcome'
 import ScrollApeal from '@/components/ScrollApeal'
-import Head from 'next/head';
 import React from 'react';
 import NewPerformance from '@/components/NewPerformance'
-import Waterdrops from '@/components/WaterDrop'
-// import ScrollToButton from '@/components/ScrollToButton'
 
 const Home: React.FC = () => {
   return (
