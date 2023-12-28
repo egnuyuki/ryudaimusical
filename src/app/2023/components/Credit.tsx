@@ -1,12 +1,11 @@
 import H2 from "./H2";
-import Image from "next/image";
 import Member1 from "./Member1"
 import Member2 from "./Member2"
 import FadingInOnScroll from "./FadingInOnScroll";
 export default function Credit() {
     return (
-        <FadingInOnScroll>
-            <div className="w-full md:w-10/12 mx-auto px-8 py-8 flex justify-center gap-4 flex-col  max-w-screen-xl">
+        <div className="w-full md:w-10/12 mx-auto px-8 py-8 flex justify-center gap-4 flex-col  max-w-screen-xl">
+            <FadingInOnScroll>
                 <H2 h2J='Cast & Staff'/>
                 <div className="w-full text-white flex flex-col gap-20">
                     <div>
@@ -52,7 +51,7 @@ export default function Credit() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </FadingInOnScroll>
+            </FadingInOnScroll>
+        </div>
     );
 }
