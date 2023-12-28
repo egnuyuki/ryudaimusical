@@ -1,7 +1,9 @@
+import FadingInOnScroll from "./FadingInOnScroll";
 import H2 from "./H2";
 import Image from "next/image";
 export default function Introduction() {
     return (
+        <FadingInOnScroll>
         <div className="w-full md:w-10/12 mx-auto px-8 py-8 flex justify-center gap-4 flex-col  max-w-screen-xl">
             <H2 h2J='Introduction'/>
             <Image
@@ -25,5 +27,6 @@ export default function Introduction() {
                 <div>私たちがイメージした世界が、未来が、思いがそこにあります。ぜひ劇場でご覧ください。</div>
             </div>
         </div>
+        </FadingInOnScroll>
     );
 }

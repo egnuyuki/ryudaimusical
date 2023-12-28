@@ -1,7 +1,9 @@
+import FadingInOnScroll from "./FadingInOnScroll";
 import H2 from "./H2";
 import Image from "next/image";
 export default function Story() {
     return (
+        <FadingInOnScroll>
         <div className="w-full md:w-10/12 mx-auto px-8 py-8 flex justify-center gap-4 flex-col  max-w-screen-xl">
             <H2 h2J='Story'/>
             <div className="w-full text-white text-s font-normal font-['Inter'] leading-loose">
@@ -10,5 +12,6 @@ export default function Story() {
                 <div>ウスナビ、ヴァネッサ、ニーナ、ベニー、4人の若者たちが中心となって展開される、絆・夢・そして「故郷」の真の意味を描く壮大でかつ繊細なSHOW TIME</div>
             </div>
         </div>
+        </FadingInOnScroll>
     );
 }

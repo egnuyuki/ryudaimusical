@@ -4,8 +4,10 @@ import H4 from "./H4";
 import Image from "next/image";
 import Member1 from "./Member1";
 import BtnOrange from "./BtnOrange";
+import FadingInOnScroll from "./FadingInOnScroll";
 export default function Ticket() {
     return (
+        <FadingInOnScroll>
         <div className="w-full md:w-10/12 mx-auto px-8 py-8 flex justify-center gap-4 flex-col  max-w-screen-xl">
             <H2 h2J='Ticket'/>
             <div className="flex flex-col items-center gap-4 md:gap-8 mb-4 md:mb-12">
@@ -28,5 +30,6 @@ export default function Ticket() {
                 </ul>
             </div>
         </div>
+        </FadingInOnScroll>
     );
 }
