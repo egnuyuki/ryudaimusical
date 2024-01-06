@@ -20,7 +20,7 @@ export default function Ticket() {
                 <div className="flex flex-col gap-4 md:gap-8 mb-4 md:mb-12">
                     <H3 h3J="購入の流れ"/>
                     <H4 h4J="パスマーケットでの購入"/>
-                    <div className="text-white text-base">以下のボタンからフォームを入力ください。パスマーケットの購入リンクを後日メールにて送信致します</div>
+                    <div className="text-white text-base">以下のボタンからフォームを入力ください。パスマーケットの購入リンクはフォーム送信完了画面にて表示されます。</div>
                     <BtnOrange Text="チケットフォームはコチラ！" Href="https://forms.gle/UJ7jGvT3nYtSymhc7"/>
                     <H4 h4J="関係者から直接購入"/>
                     <div className="text-white text-base">団体内に身内や知り合いがいる場合は直接お買い求めできます。本人とのやり取り後、基本情報フォームを提出してください。</div>
