@@ -35,7 +35,7 @@ export default function Credit() {
                                 <Member2 role="アンサンブル" name="久志明日香"/>
                             </div>
                             <div className="w-full flex justify-evenry gap-10 md:gap-40">
-                                <Member2 role="アンサンブル" name="割小田あんな"/>
+                                <Member2 role="アンサンブル" name="割子田あんな"/>
                                 <Member2 role="アンサンブル" name="勝連翔大"/>
                             </div>
                             <div className="w-full flex justify-evenry gap-10 md:gap-40">
