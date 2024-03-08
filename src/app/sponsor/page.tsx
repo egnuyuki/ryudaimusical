@@ -93,6 +93,11 @@ const Date = [
       alt:"sponsor17"
   },
   {
+      No:19,
+      src:"/images/sponsors/2024/sponsor19.png",
+      alt:"sponsor19"
+  },
+  {
       No:18,
       src:"/images/sponsors/2024/sponsor18.png",
       alt:"sponsor18"
