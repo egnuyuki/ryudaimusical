@@ -1,0 +1,88 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.firstview {
+    width : 100vw;
+    margin: auto;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent; /* 透明に設定 */
+}
+
+.btn {
+  overflow: hidden;
+  transition: all .7s ease-in;
+}
+
+
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    transform: scale(0.0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.0);
+  }
+}
+
+
+.btn:active div::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left:-50px;
+  content: "";
+  background: #80aaff;
+  border-radius: 100%;
+  opacity: 0;
+  animation: ripple 0.3s 1 ease-out;
+}
+
+.line-neon-orange {
+  box-shadow: 0 0 10px 0 #F4A76A;
+}
+.text-neon-orange {
+  text-shadow: 0 0 10px #F4A76A;
+}
+.line-neon-blue {
+  box-shadow: 0 0 10px 0 #80BDF5;
+}
+.text-neon-blue {
+  text-shadow: 0 0 10px #80BDF5;
+}
+
+@keyframes fall {
+  0% { top: -10px; opacity: 1; }
+  100% { top: 100vh; opacity: 0; }
+}
